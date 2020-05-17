@@ -1,6 +1,6 @@
 const Discord = require('Discord.js');
 const bot = new Discord.Client();
-const token = "NzExMjQ2ODQwNTE5MDY1NjAx.XsAQiA.LRbqbfis_YX9xV3POM8fdtxSqFk";
+const token = process.env.token;
 const PREFIX = "-";
 const ping = require('minecraft-server-util')
 const fs = require('fs');
